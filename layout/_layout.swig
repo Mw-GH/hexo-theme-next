@@ -10,6 +10,19 @@
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
+ 
+  <div id="music">
+    <iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="200" height="52" src="//music.163.com/outchain/player?type=2&id=1305366486&auto=0&height=32"></iframe>
+  </div>
+  <style>
+    #music {
+        position: fixed;
+        left: 20px;
+        bottom: 5px;
+        z-index: 998;
+    }
+  </style>
+  
   <div class="container{%- if theme.motion.enable %} use-motion{%- endif %}">
     <div class="headband"></div>
 
