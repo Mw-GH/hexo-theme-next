@@ -268,7 +268,7 @@ post_wordcount: 		# 字数统计
   item_text: true		# 是否显示文字
   wordcount: true		# 显示字数
   min2read: true		# 显示阅读时间
-  totalcount: true		# 显示总数
+  totalcount: false		# 显示总数
   separated_meta: true	# 是否分开
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
@@ -533,7 +533,7 @@ pjax: false
 
 # FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
 # For more information: https://fancyapps.com/fancybox
-fancybox: false
+fancybox: true
 
 # A JavaScript library for zooming images like Medium.
 # Do not enable both `fancybox` and `mediumzoom`.
